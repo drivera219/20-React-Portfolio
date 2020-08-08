@@ -16,6 +16,51 @@
   height: 100%;
 }
 
+.about-nav:hover {
+    color: white;
+    background-color: #0a1014;
+    text-align: center;
+  }
+
+  .about-nav:active {
+    color: white;
+    font-weight: bold;
+  }
+
+  .projects-nav:hover {
+    color: white;
+    background-color: #0a1014;
+    text-align: center;
+  }
+
+  .projects-nav:active {
+    color: white;
+    font-weight: bold;
+  }
+
+  .resume-nav:hover {
+    color: white;
+    background-color: #0a1014;
+    text-align: center;
+  }
+
+  .resume-nav:active {
+    color: white;
+    font-weight: bold;
+  }
+
+  .contact-nav:hover {
+    color: white;
+    background-color: #0a1014;
+    text-align: center;
+  }
+
+  .contact-nav:active {
+    color: white;
+    font-weight: bold;
+  }
+
+
 .profilepic-img {
   height: 250px;
   width: 250px;
@@ -30,7 +75,7 @@
   opacity: .8;
   width: 75%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .banner-text h1 {
@@ -54,6 +99,8 @@
 }
 
 .social-links {
+  font-size: 5em;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -61,9 +108,19 @@
 }
 
 .social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
+  color: 	#f8f8ff;
+}
+
+.fa-linkedin-square:hover {
+  color: #2867B2;
+}
+
+.fa-github-square:hover {
+  color: #211F1F;
+}
+
+.fa-behance-square:hover {
+  color: #053eff;
 }
 
 .projects-grid {
@@ -113,15 +170,5 @@
 .resume-right-col {
   background: #27221f;
   color: white;
-  height: auto;
-  width: 50%;
-  overflow: visible;
-}
-
-.resumefile {
-  size: 10%;
-  padding: 5px;
-  margin: auto;
-  height: auto;
   overflow: visible;
 }

@@ -19,18 +19,18 @@ class Home extends Component {
 
                         <hr/>
 
-                        <p>HTML/CSS | Javascript | React | MongoDB </p>
+                        <p style={{color: 'lightgray'}}>HTML/CSS | Javascript | React | MongoDB </p>
 
                     <div className="social-links">
-                        <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/danielm-rivera/" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-linkedin-square" aria-hidden="true" />
                         </a>
 
-                        <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/drivera219" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github-square" aria-hidden="true" />
                         </a>
 
-                        <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.behance.net/danielmriv6407" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-behance-square" aria-hidden="true" />
                         </a>
 
