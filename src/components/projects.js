@@ -48,11 +48,41 @@ class Projects extends Component {
             )
         }   else if(this.state.activeTab === 1) {
             return (
-                <div><h1>This is Angular</h1></div>
+                <div className = "projects-grid">
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background:
+                    'url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover'}} >React Project #1</CardTitle>
+                    <CardText>
+                        Project 1
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Test Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background:
+                    'url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover'}} >React Project #1</CardTitle>
+                    <CardText>
+                        Project 2
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Test Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+                </div>
             )
         }   else if(this.state.activeTab === 2) {
             return (
-                <div><h1>This is vueJS</h1></div>
+                <div><h1>This is JavaScript</h1></div>
             )
         }   else if(this.state.activeTab === 3) {
             return (
@@ -65,9 +95,9 @@ class Projects extends Component {
         return(
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID })} ripple>
+                <Tab>All</Tab>
                 <Tab>React</Tab>
-                <Tab>Angular</Tab>
-                <Tab>VueJS</Tab>
+                <Tab>JavaScript</Tab>
                 <Tab>MongoDB</Tab>
                 </Tabs>
 

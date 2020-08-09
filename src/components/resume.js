@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import ResumeFile from '../Resume.png';
 
-
 class Resume extends Component {
     render() {
         return(
-            <div>
-                <Grid>
+            <div style={{width: '100%', margin: 'auto'}}>
+            <Grid className="home-grid">
+            </Grid>
                     <Cell col={4}>
 
                     <h2 style={{fontWeight: 'bold'}}>Daniel Rivera</h2>
@@ -31,7 +31,6 @@ class Resume extends Component {
                         alt="myresume"/>
                         </section> 
                     </Cell>
-                </Grid>
             </div>
         )
     }
